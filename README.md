@@ -9,12 +9,12 @@ social fortement inspiré de Twitter.
 
 Ce projet nous a été demandé dans le but d'évaluer nos connaissances en PHP et
 JavaScript. Certaines contraintes étaient présentes :
-* Créer des services en PHP qui renvoient des réponses au format JSON
+* Créer des services en **PHP** qui renvoient des réponses au format **JSON**
 * Les actions doivent être fluides, aucun rechargement de la page n'est autorisé
 * Utiliser une base de données **PostgreSQL**
 * Ne pas utiliser de **librairies externes**
 * Utiliser la structure de dossiers & fichiers vue en travaux dirigés
-* (Utiliser la version 5.6 de PHP...)
+* (Utiliser la version **5.6** de PHP...)
 
 ## Réalisation 🎨
 
@@ -54,11 +54,11 @@ qui bride selon moi la propreté du code. Je préfère de loin diviser pour mieu
 utiliser des patrons de conception modernes pour garantir une meilleure lisibilité dans
 le temps
 - La version de PHP ancienne qui empêche là aussi selon moi de faire les choses un peu
-plus proprement et bénéficier des améliorations considérables du langage
+plus proprement et bénéficier des améliorations du langage
 
 ## Tester le projet 🧪
 
-/!\ *Vérifiez que vous avez PHP >= 5.6, Apache >= 2.4 et PostgreSQL >= 9.4.2 installés sur votre machine*  
+⚠️ *Vérifiez que vous avez PHP >= 5.6, Apache >= 2.4 et PostgreSQL >= 9.4.2 installés sur votre machine*  
 
 1. Téléchargez ce dépôt en local via `$ git clone` ou via téléchargement direct au format .zip
 2. Sur PostgreSQL éxecutez le fichier rezozio.sql
