@@ -1,0 +1,640 @@
+/* Thread */
+
+div.filters
+{
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+div.filters>*
+{
+    margin-right: 25px;
+}
+
+div.filters span
+{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #D21F3C;
+    padding: 4px;
+    font-size: 11pt;
+    transition: all 0.3s ease-out;
+    background-color: #D21F3C;
+    color: white;
+}
+
+div.filters span:hover
+{
+    background-color: #F8F8F8;
+    color: #D21F3C;
+}
+
+div.filters form
+{
+    display: inline-block;
+}
+
+div.filters form input
+{
+    padding: 10px;
+    font-size: 11.5pt;
+    color: #454545;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 150px;
+}
+
+div.filters form button
+{
+    width: auto;
+    height: auto;
+    border-radius: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    font-size: 11pt;
+}
+
+div.message
+{
+    width: 610px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+div.message div.message_header
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+div.message div.message_header img
+{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+div.message div.message_header span.pseudo
+{
+    color: black;
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+div.message div.message_header span.author
+{
+    color: #ED2939;
+    font-size: 11pt;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 3px;
+    transition: all 0.3s ease-out;
+}
+
+div.message div.message_header:hover span.author
+{
+    color: white;
+    background-color: #D21F3C;
+}
+
+div.message div.date_container
+{
+    margin-top: 10px;
+    font-size: 10pt;
+}
+
+div.message div.message_text p
+{
+    word-break: break-all;
+    text-align: justify;
+}
+
+/* Set profile */
+section#content div#set_profile textarea
+{
+    background-color: white;
+    height: 250px;
+    width: 550px;
+    margin-bottom: 25px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+section#content div#set_profile form:first-of-type
+{
+    margin-bottom: 60px;
+}
+
+
+/* Subscriptions */
+
+section#content div#subscriptions
+{
+    width: 650px;
+}
+
+section#content div#subscriptions div.followed
+{
+    background-color: #F8F8F8;
+    width: 610px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+section#content div#subscriptions div.followed div.followed_id
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+section#content div#subscriptions div.followed div.followed_id img
+{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+section#content div#subscriptions div.followed div.followed_id span.pseudo
+{
+    color: black;
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+section#content div#subscriptions div.followed div.followed_id span.userId
+{
+    color: #ED2939;
+    font-size: 11pt;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+section#content div#subscriptions div.followed div.followed_id:hover span.userId
+{
+    color: white;
+    background-color: #D21F3C;    
+}
+
+section#content div#subscriptions div.followed div.followed_action form button
+{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: transparent;
+}
+
+section#content div#subscriptions div.followed div.followed_action form button svg
+{
+    width: 24px;
+    height: 24px;
+}
+
+section#content div#subscriptions div.followed div.followed_action form button svg path
+{
+    transition: all 0.5s ease-in;
+}
+
+section#content div#subscriptions div.followed div.followed_action form button:hover svg path
+{
+    fill: #ED2939;
+}
+
+
+/* Followers */
+
+section#content div#followers_m
+{
+    width: 650px;
+}
+
+section#content div#followers_m div.follower
+{
+    background-color: #F8F8F8;
+    width: 610px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+section#content div#followers_m div.follower div.follower_id
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+section#content div#followers_m div.follower div.follower_id img
+{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+section#content div#followers_m div.follower div.follower_id span.pseudo
+{
+    color: black;
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+section#content div#followers_m div.follower div.follower_id span.userId
+{
+    color: #ED2939;
+    font-size: 11pt;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+
+section#content div#followers_m div.follower div.follower_id:hover span.userId
+{
+    color: white;
+    background-color: #D21F3C;
+}
+
+section#content div#followers_m div.follower div.follower_action form button
+{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    color: transparent;
+}
+
+section#content div#followers_m div.follower div.follower_action form button svg
+{
+    width: 24px;
+    height: 24px;
+}
+
+section#content div#followers_m div.follower div.follower_action form button svg path
+{
+    transition: all 0.5s ease-in;
+}
+
+section#content div#followers_m div.follower div.follower_action form button:hover svg path:first-of-type
+{
+    fill: #ED2939;
+}
+
+section#content div#followers_m div.follower div.follower_action span.mutual
+{
+    color: white;
+    padding: 5px;
+    font-size: 10pt;
+    border-radius: 15px;
+    background-color: #D21F3C;
+    cursor: default;
+    margin-right: 20px;
+}
+
+section#content div#followers_m div.follower div.follower_action
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+/** Forms **/
+
+form div.dark_form_wrapper
+{
+    background-color: #F8F8F8;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    width: 650px;
+}
+
+div.dark_form_wrapper input
+{
+    width: 40%;
+    padding: 10px;
+    font-size: 11.5pt;
+    color: #454545;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+div.dark_form_wrapper label
+{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+/* Credits */
+
+section#content div#credits
+{
+    width: 650px;
+}
+
+section#content div#credits div
+{
+    background-color: #F8F8F8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+section#content div#credits div ul li
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* Search */
+
+section#content div#found_users div
+{
+    width: 610px;
+    padding: 20px;
+    background-color: #F8F8F8;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: pointer;
+}
+
+section#content div#found_users div img
+{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+section#content div#found_users div span.pseudo
+{
+    color: black;
+    font-size: 14pt;
+    margin-left: 10px;
+}
+
+section#content div#found_users div span.userId
+{
+    color: #ED2939;
+    font-size: 11pt;
+    margin-left: 5px;
+    border-radius: 15px;
+    padding: 3px;
+    transition: all 0.3s ease-out;
+}
+
+section#content div#found_users div:hover span.userId
+{
+    color: white;
+    background-color: #D21F3C;
+}
+
+
+/* User profile */
+
+section#content div#get_user_profile div
+{
+    width: 610px;
+    padding: 20px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section#content div#get_user_profile div img
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+section#content div#get_user_profile div span.user_pseudo
+{
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+section#content div#get_user_profile div span.user_userId
+{
+    margin-top: 10px;
+    font-size: 14pt;
+    color: #D21F3C;
+}
+
+section#content div#get_user_profile div p
+{
+    font-size: 12.5pt;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+
+/* Profile */
+
+section#content div#get_profile div
+{
+    width: 610px;
+    padding: 20px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section#content div#get_profile div img
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+section#content div#get_profile div span.user_pseudo
+{
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+section#content div#get_profile div span.user_userId
+{
+    margin-top: 10px;
+    font-size: 14pt;
+    color: #D21F3C;
+}
+
+section#content div#get_profile div p
+{
+    font-size: 12.5pt;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+section#content div#get_profile span.follower
+{
+    border-radius: 15px;
+    padding: 4px;
+    font-size: 11pt;
+    transition: all 0.3s ease-out;
+    background-color: #E0E0E0;
+    color: #454545;
+    margin-top: 10px;
+}
+
+section#content div#get_profile form button
+{
+    background-color: transparent;
+    width: auto;
+    color: #D21F3C;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 10px;
+    transition: all 0.3s ease-out;
+}
+
+section#content div#get_profile form button:hover
+{
+    color: #ED2939;
+}
+
+
+section#content div#get_profile form button svg
+{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+
+/* Buttons */
+
+button
+{
+    margin: 0;
+    padding: 10px;
+    border: none;
+    width: 650px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #D21F3C;
+    color: white;
+    font-size: 11.5pt;
+    transition: all 0.5s ease-out;
+}
+
+button:hover
+{
+    background-color: #ED2939;
+    cursor: pointer;
+}
+
+/* Generics */
+
+a.more_messages
+{
+    margin-left: 285px;
+    border-radius: 15px;
+    border: 2px solid #ED2939;
+    padding: 4px;
+    font-size: 11pt;
+    transition: all 0.3s ease-out;
+}
+
+a.more_messages:hover
+{
+    color: white;
+    background-color: #ED2939;
+}
+
+/** MEDIA QUERIES **/
+
+@media screen and (max-width: 1225px) 
+{
+    section#content>div
+    {
+        max-width: 500px;
+    }
+
+    div.follower, div.followed, #thread>div, #user_thread>div, #other_thread>div, textarea, section#content div#get_profile div, div.found_user, section#content div#get_user_profile div
+    {
+        max-width: 460px;
+    }
+
+    div#set_profile div.dark_form_wrapper, div#search_user div.dark_form_wrapper, div button, form#form_register div.dark_form_wrapper, form#form_login div.dark_form_wrapper
+    {
+        width: 500px;
+    }
+
+    div#set_profile textarea
+    {
+        max-width: 410px;
+    }
+
+    nav#sidebar a.item
+    {
+        font-size: 12pt;
+    }
+
+    nav#sidebar a.item svg
+    {
+        height: 21px;
+        width: 21px;
+    }
+
+    nav a#login_btn, nav a#register_btn
+    {
+        padding: 6px 4px 6px 4px;
+    }
+
+    a.more_messages
+    {
+        margin-left: 215px;
+    }
+}
