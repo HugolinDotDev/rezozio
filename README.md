@@ -65,4 +65,4 @@ plus proprement et bénéficier des améliorations du langage
 3. Définissez dans le fichier lib/db_parms.php vos identifiants PostgreSQL
 4. Copiez les dossiers & fichiers du dépôt sur votre serveur Apache
 5. Définissez les permissions 755 sur les dossiers et 644 sur les fichiers
-6. Rendez-vous sur votre navigateur préféré à l'adresse où se trouve fichier index.php
+6. Rendez-vous sur votre navigateur préféré à l'adresse où se trouve le fichier index.php
